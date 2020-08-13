@@ -9,5 +9,31 @@
 <body>
     <h1>Pedro Manuel Armas Chang - 20181518</h1>
     <h2>Centro Educativo Técnico Laboral KINAL</h2>
+
+    <form>
+        <label for="number1">Ingrese el primer número</label>
+        <input type="text" id="num1"><br>
+        <label for="number2">Ingrese el segundo número</label>
+        <input type="text" id="num2"><br>
+        <input type="button" onclick="suma()" value="Operar ->"><br>
+        <label for="resultado">La respuesta es:</label>
+        <input type="text" id="num3"><br>
+    </form>
+
+    <script>
+        var n1, n2, result;
+        
+        function suma(){
+            n1 = num1.value * 1; 
+            n2 = num2.value * 1;
+            result = n1 + n2;
+            num3.value = result
+        }
+
+
+    
+    </script>
+
+
 </body>
 </html>
